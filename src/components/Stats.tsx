@@ -3,16 +3,14 @@ import { Server, Users, MessageSquare, Heart, Globe, Star } from 'lucide-react';
 
 interface StatItem {
   icon: React.ElementType;
-  value: string;
   label: string;
-  suffix?: string;
 }
 
 const stats: StatItem[] = [
-  { icon: Server, value: '8,500', label: 'Servers' },
-  { icon: Users, value: '2.1M', label: 'Users', suffix: '+' },
-  { icon: MessageSquare, value: '50M', label: 'Messages processed' },
-  { icon: Heart, value: '99.9', label: 'Uptime', suffix: '%' },
+  { icon: Server, label: 'Servers' },
+  { icon: Users, label: 'Users' },
+  { icon: MessageSquare, label: 'Messages processed' },
+  { icon: Heart, label: 'Uptime' },
 ];
 
 export default function Stats() {
