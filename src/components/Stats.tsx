@@ -50,14 +50,10 @@ export default function Stats() {
               }`}
               style={{ transitionDelay: `${i * 100}ms` }}
             >
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-green/20 to-green/5 border border-green/20 flex items-center justify-center mx-auto mb-4">
-                <stat.icon className="w-5 h-5 text-green" />
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green/20 to-green/5 border border-green/20 flex items-center justify-center mx-auto mb-4">
+                <stat.icon className="w-6 h-6 text-green" />
               </div>
-              <div className="text-3xl sm:text-4xl font-extrabold text-text mb-1">
-                {stat.value}
-                {stat.suffix && <span className="text-green">{stat.suffix}</span>}
-              </div>
-              <div className="text-sm text-muted font-medium">{stat.label}</div>
+              <div className="text-base sm:text-lg font-semibold text-text">{stat.label}</div>
             </div>
           ))}
         </div>
@@ -89,7 +85,7 @@ export default function Stats() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://discord.com/oauth2/authorize?client_id=1067857955803344976"
+                href="https://discord.com/oauth2/authorize?client_id=1519811044942282784&permissions=1073835072&scope=bot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-green text-lg px-8"
@@ -98,7 +94,7 @@ export default function Stats() {
                 Add to Discord
               </a>
               <a
-                href="https://discord.gg/notepad"
+                href="https://discord.gg/pain"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-ghost text-lg px-8"

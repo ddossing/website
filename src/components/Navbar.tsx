@@ -72,7 +72,7 @@ export default function Navbar() {
 
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="https://discord.com/oauth2/authorize?client_id=1067857955803344976"
+            href="https://discord.com/oauth2/authorize?client_id=1519811044942282784&permissions=1073835072&scope=bot"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
@@ -107,7 +107,7 @@ export default function Navbar() {
             Commands
           </button>
           <a
-            href="https://discord.com/oauth2/authorize?client_id=1067857955803344976"
+            href="https://discord.com/oauth2/authorize?client_id=1519811044942282784&permissions=1073835072&scope=bot"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary w-full justify-center mt-2"

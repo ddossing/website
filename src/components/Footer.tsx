@@ -24,8 +24,8 @@ export default function Footer() {
             <h4 className="text-sm font-bold text-text mb-4">Product</h4>
             <ul className="space-y-2.5">
               {[
-                { label: 'Invite Bot', href: 'https://discord.com/oauth2/authorize?client_id=1067857955803344976' },
-                { label: 'Support Server', href: 'https://discord.gg/notepad' },
+                { label: 'Invite Bot', href: 'https://discord.com/oauth2/authorize?client_id=1519811044942282784&permissions=1073835072&scope=bot' },
+                { label: 'Support Server', href: 'https://discord.gg/pain' },
                 { label: 'Commands', href: 'https://notepad.help/' },
                 { label: 'Status', href: 'https://notepad.help/' },
               ].map((link) => (

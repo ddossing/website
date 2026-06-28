@@ -67,7 +67,7 @@ export default function Hero() {
         {/* CTAs */}
         <div className="animate-fade-in-up animation-delay-600 flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
           <a
-            href="https://discord.com/oauth2/authorize?client_id=1067857955803344976"
+            href="https://discord.com/oauth2/authorize?client_id=1519811044942282784&permissions=1073835072&scope=bot"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-green text-lg px-8"
